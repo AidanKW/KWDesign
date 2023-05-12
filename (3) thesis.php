@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KW Neck Hammock</title>
+    <link rel="icon" href="images/AKW_Favicon32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/AKW_Favicon48x48.png" sizes="48x48" type="image/png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <?php include('header.php'); ?>
+    <div class="projectcontainer">
+        <p class="name">The Neck Hammock</p>
+    </div>
+    <img class="largeimage" src="images/thesis/3prototypes.png" alt="image">
+    <div class="projectcontainer">
+        <div class="projectsidebyside">
+            <div class="left">
+                <p class="pgrey">
+                    <b>Summary:</b> For my master’s thesis, I completed a first-person Somaesthetic design project
+                    around the sensation of “rocking”. The final result is a shape-changing pillow called the “Neck
+                    Hammock”.
+                    <br><br>
+                    <b>Skills: </b>Soma design, autobiographical and first-person design methods, physical interaction
+                    design, microcontrollers.
+                    <br><br>
+                    <b>Time spent: </b>14 months.
+                </p>
+            </div>
+
+            <div class="right">
+                <img class="smallimage" src="images/thesis/hammockinuse.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <img class="largeimage" src="images/thesis/feldenkrais.png" alt="image">
+
+    <div class="projectcontainer">
+        <div class="projectsidebyside">
+            <div class="paragraph">
+                <p class="pgrey">For my master's thesis I explored a field of design which has strong originas from my
+                    graduate school KTH in Sweden. Somaesthetic Design is a holistic framework for designing and
+                    evaluating aesthetic experiences. By aesthetics, I mean a core principle that defines an
+                    interaction’s qualities. This framework makes use of the “soma”, i.e. the body, emotions, and
+                    interactions we feel with the world around us.
+
+                    I decided that the sensation I wanted to explore was rocking. I believed rocking meant something
+                    different to me as a dancer, than someone else as a parent. Could I communicate my understanding of
+                    rocking to another person?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectcontainer">
+        <div class="projectsidebyside">
+            <div class="left">
+                <p class="pgrey">
+                    After 22 first-person Feldenkrais-inspired investigative sessions, and 3 prototypes, I was
+                    successful in recreating my version of rocking.
+                    <br><br>
+                    To do this, I constructed a neck pillow which made use of 2 air pumps controlled by Arduinos. For
+                    the full experience, earplugs and an eye mask were used to block out the other senses. The results
+                    of which were profoundly impactful. If you have ever used or heard of a sensory deprivation chamber,
+                    this created a similar experience. The Neck Hammock differed however because it evoked a very
+                    specific
+                    visualization; rocking.
+                </p>
+            </div>
+
+            <div class="right">
+                <img class="smallimage" src="images/thesis/results.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="projectcontainer">
+        <div class="projectsidebyside">
+            <div class="paragraph">
+                <p class="pgrey">This project is near and dear to my heart. Designing on something so relaxing and
+                    pleasant to use was such a delight. Unfortunately, I did this project during the start of the
+                    COVID-19 pandemic, and so my access to materials were heavily limited. I would have liked to try
+                    stronger air pumps, different materials, and 3D printing an interface.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <?php include('footer.php'); ?>
+    <script src="" async defer></script>
+</body>
+
+</html>
