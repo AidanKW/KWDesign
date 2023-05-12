@@ -51,7 +51,7 @@ body {
     font-weight: 600;
 }
 
-.pgrey b{
+.pgrey b {
     color: #000000;
     font-weight: 900;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -71,7 +71,7 @@ body {
     font-size: 22px;
     letter-spacing: 0.2px;
     color: #222222;
-    font-weight:600;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -200,6 +200,10 @@ body {
     color: white;
 }
 
+.blue .pgrey {
+    font-weight: initial;
+}
+
 .blue .circles1,
 .blue .circles2 {
     display: block;
@@ -271,7 +275,7 @@ body {
 }
 
 .portfolioitem .container.blue .greet::after {
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
 }
 
 .grid-container {
@@ -583,6 +587,7 @@ button[type="submit"]:hover {
     color: black;
     font-weight: bolder;
 }
+
 
 
 

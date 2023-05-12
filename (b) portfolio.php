@@ -24,7 +24,8 @@
             <div class="left pgrey">
                 <p class="">
                     I taught myself web development so that I could code this website from scratch! This is the 3rd
-                    iteration of the website, and I like it a lot.<br><br>
+                    iteration of the website, and I like it a lot. I use Figma for design and Github for version
+                    control.<br><br>
 
                     This platform is the culmination of multiple usability reviews, learning HTML, CSS, and Javascript,
                     and many hours of coding. Even now the website is continuously updating to be more accessible, more
@@ -34,7 +35,7 @@
             </div>
 
             <div class="right">
-                <img class="smallimage" src="images/lightmeup/gardenlight.png" alt="image">
+                <img class="smallimage" src="images/portfolio/figma.png" alt="image">
             </div>
         </div>
     </div>

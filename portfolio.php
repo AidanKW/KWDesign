@@ -40,7 +40,7 @@
         </div>
     </a>
 
-    <a href="#" class="portfolioitem">
+    <a href="(2) unitedway.php" class="portfolioitem">
         <div class="circles1"></div>
         <div class="circles2"></div>
         <div class="container blue">
@@ -82,7 +82,7 @@
         </div>
     </a>
 
-    <a href="#" class="portfolioitem">
+    <a href="(4) walkoverme.php" class="portfolioitem">
         <div class="circles1"></div>
         <div class="circles2"></div>
         <div class="container blue">

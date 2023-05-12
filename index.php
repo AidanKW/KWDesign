@@ -24,8 +24,8 @@
 
 
             <div class="button-container">
-                <a class="buttonblue">HIRE ME</a>
-                <a class="buttonwhite" href="#"> DOWNLOAD RESUME <span>&gt;</span></a>
+                <a class="buttonblue" href="contact.php">HIRE ME</a>
+                <a class="buttonwhite" target="_blank" href="images\KW Resume (2023).pdf"> DOWNLOAD RESUME <span>&gt;</span></a>
             </div>
         </div>
         <div class="right" style="padding-right: 1em;"><img src="images/Herobanner.png" alt="image"></div>
@@ -43,7 +43,7 @@
                 and/or fun, not stressful and confusing.
             </p>
 
-            <a href="#"> LEARN MORE <span>&gt;</span></a>
+            <a href="about.php"> LEARN MORE <span>&gt;</span></a>
         </div>
 
         <div class="right">
@@ -52,9 +52,9 @@
                 I’m always happy to chat! The best way to reach me is through email at </p>
             <p><b style='color:white;'>akidderwolff@gmail.com</b></p>
             <div class="social-links">
-                <a href="mailto:your-email@gmail.com" class="fa fa-envelope"></a>
-                <a href="https://www.linkedin.com/in/your-profile" class="fa fa-linkedin"></a>
-                <a href="https://github.com/your-profile" class="fa fa-github"></a>
+                <a href="mailto:akidderwolff@gmail.com" class="fa fa-envelope"></a>
+                <a href="https://www.linkedin.com/in/aidankidder-wolff/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://adplist.org/members/aidan-kidder-wolff" target="_blank" class="fa fa-smile-o"></a>
             </div>
         </div>
     </div>

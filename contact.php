@@ -27,8 +27,8 @@
                 </p>
                 <div class="social-links">
                     <a href="mailto:akidderwolff@gmail.com" class="fa fa-envelope"></a>
-                    <a href="https://www.linkedin.com/in/your-profile" class="fa fa-linkedin"></a>
-                    <a href="https://github.com/your-profile" class="fa fa-github"></a>
+                    <a href="https://www.linkedin.com/in/aidankidder-wolff/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://adplist.org/members/aidan-kidder-wolff" target="_blank" class="fa fa-smile-o"></a>
                 </div>
             </div>
 
