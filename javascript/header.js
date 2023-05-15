@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (currentPage !== null && navlinks.includes(currentPage)) {
     document.getElementById(`${currentPage}-link`).classList.add('active');
-    document.querySelector(`.headerlinks a[href='${currentPage}.php']`).classList.add('active');
+    document.querySelector(`.headerlinks a[href='${currentPage}.html']`).classList.add('active');
   }
 
   navIcon.addEventListener('click', function() {
