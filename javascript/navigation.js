@@ -9,7 +9,7 @@ fetch('header.html')
         const currentPage = window.location.pathname.split('/').pop().split('.')[0];
         let navIcon = document.querySelector('.nav-icon');
         let rotated = false;
-        let navlinks = ['about', 'portfolio', 'contact'];
+        let navlinks = ['about', 'projects', 'contact'];
 
         if (currentPage !== null && navlinks.includes(currentPage)) {
             document.getElementById(`${currentPage}-link`).classList.add('active');
