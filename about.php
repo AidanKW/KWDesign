@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    
+
 
     <div class="centeredcontainer">
         <p class="h1">What are my goals?</p>
@@ -65,22 +65,24 @@
             <div class="grid-text grid-blue">
                 <p class="h1">Growth</p>
                 <p>
-                    I want to spend each day somewhere I can grow as a designer and where my work benefits as many
-                    people as possible.
+                    My goal of growth is driven by the desire to continuously expand my knowledge, skills, and
+                    experiences, pushing myself to reach new heights and achieve personal and professional development.
                 </p>
             </div>
             <div class="grid-text">
                 <p class="h1">Collaboration</p>
                 <p>
-                    I want to spend each day somewhere I can grow as a designer and where my work benefits as many
-                    people as possible.
+                    Emphasizing collaboration as a goal stems from recognizing the power of teamwork, valuing diverse
+                    perspectives, and leveraging collective strengths to foster synergy and accomplish shared
+                    objectives.
                 </p>
             </div>
             <div class="grid-text">
                 <p class="h1">Innovation</p>
                 <p>
-                    I want to spend each day somewhere I can grow as a designer and where my work benefits as many
-                    people as possible.
+                    With a focus on innovation, my goal is to foster a creative and forward-thinking mindset, constantly
+                    seeking new ideas, approaches, and solutions that challenge the status quo and drive positive
+                    change.
                 </p>
             </div>
         </div>

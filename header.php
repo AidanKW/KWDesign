@@ -2,7 +2,7 @@
   <a href="index.php">KIDDER-WOLFF DESIGN</a>
   <div class="headerlinks">
     <a href="about.php">About</a>
-    <a href="portfolio.php">Portfolio</a>
+    <a href="projects.php">Portfolio</a>
     <a href="contact.php">Contact</a>
   </div>
 </div>
@@ -20,7 +20,7 @@
 <div class="overlay">
   <ul class="overlay-links">
     <li id="about-link"><a href="about.php">ABOUT</a></li>
-    <li id="portfolio-link"><a href="portfolio.php">PORTFOLIO</a></li>
+    <li id="portfolio-link"><a href="projects.php">PORTFOLIO</a></li>
     <li id="contact-link"><a href="contact.php">CONTACT</a></li>
   </ul>
 </div>

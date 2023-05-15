@@ -89,7 +89,7 @@
 }
 
 .dropdown-content.active {
-    max-height: 800px;
+    max-height: 900px;
     /* Set an appropriate value for the maximum height */
 }
 
@@ -136,6 +136,16 @@
     color: black;
     font-weight: bolder;
 }
+
+.button-padding {
+    padding: 10px;
+}
+
+.h1 {
+    text-align: center;
+    margin: 0 .5em 0 .5em;
+}
+
 
 @media (max-width: 40em) {
     .h1 {

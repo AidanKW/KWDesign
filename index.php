@@ -24,7 +24,7 @@
 
 
             <div class="button-container">
-                <a class="buttonblue" href="contact.php">HIRE ME</a>
+                <a class="buttonblue" target="_blank" href="contact.php">HIRE ME</a>
                 <a class="buttonwhite" target="_blank" href="images\KW Resume (2023).pdf"> DOWNLOAD RESUME <span>&gt;</span></a>
             </div>
         </div>

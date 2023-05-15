@@ -44,21 +44,32 @@
 
     <div class="projectcontainer">
         <div class="projectsidebyside">
-            <div class="left">
-                <p class="pgrey">
-                    I made 130 wallboards (75 final versions), 3 user flows, 4 high fidelity wireframes,
-                    and a user research plan. I wrote the overwhelming majority of the Ronday Help Center, including
-                    recording numerous short tutorials. I also participated in 3 user interviews, and individually led 3
-                    more. I performed competitive research on 13 competitors. I assisted with 2 project demos, and
-                    staffed 2 paid events. I also directed, recorded, and edited 5 Twitter advertisements. In addition,
-                    I created the Ronday Discord server, and the advertisement video used to promote it. All of this, in
-                    addition to countless design discussions to improve the Ronday platform.
+            <div class="left pgrey">
+                <p>
+                    Working at Ronday was a blast. I found it delightful to work on an innovative project with
+                    such a passionate team. I also had ample opportunities for self-growth, as I had to teach myself
+                    graphic design, video editing, and more. <br><br>
 
-                    <br><br>
                     The results speak for themselves. My wallboards are the default images on all of Ronday's most
                     popular maps. My Twitter Ads boast a conversion rate 20x higher than the industry average. My
-                    research results have guided major decisions for the company.
+                    research results have guided major decisions for the company.<br><br>
+
+                    Here is a full list of my accomplishments at Ronday:
                 </p>
+
+                <ul>
+                    <li> I designed 130 wallboards (75 final versions), 3 user flows, and 4 high fidelity wireframes
+                    </li>
+                    <li> I created the majority (90%+) of the Ronday Help Center.</li>
+                    <li> I wrote a user research plan. Then using that plan, I participated in 3 user interviews, and
+                        led 3
+                        more. </li>
+                    <li> I performed competitive research on 13 competitors and presented my findings to the company.
+                    </li>
+                    <li> I also directed, recorded, and edited 5 Twitter advertisements and a Discord bot advertisement.
+                    </li>
+                    <li> Participated in countless design discussions to improve the Ronday platform. </li>
+                </ul>
             </div>
 
 
@@ -68,19 +79,6 @@
                     Your browser does not support the video tag.
                 </video>
 
-            </div>
-        </div>
-    </div>
-
-    <div class="projectcontainer">
-        <div class="projectsidebyside">
-            <div class="paragraph">
-                <p class="pgrey">Working at a tech startup is an exciting and rewarding experience that I would highly
-                    recommend to
-                    anyone interested in the tech industry. I found it delightful to work on an innovative project with
-                    such a passionate team. I also had ample opportunities for self-growth, as I had to teach myself
-                    graphic design, video editing, and more.
-                </p>
             </div>
         </div>
     </div>

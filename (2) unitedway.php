@@ -18,13 +18,14 @@
     <div class="projectcontainer">
         <p class="name">United Way and the WCAG tool.</p>
     </div>
-    <img class="largeimage" src="images/ronday/rondaylaptops.png" alt="image">
+    <img class="largeimage" src="images/unitedway/reportandhelper.png" alt="image">
     <div class="projectcontainer">
         <div class="projectsidebyside">
             <div class="left">
                 <p class="pgrey">
                     <b>Summary:</b> While working at Ronday, I volunteered at a non-profit in Georgia to perform a
-                    usability and accessibility assessment of their website. Following the Web Content Accessibility Guidelines (WCAG) 2.0, I produced a 7 page
+                    usability and accessibility assessment of their website. Following the Web Content Accessibility
+                    Guidelines (WCAG) 2.0, I produced a 7 page
                     document detailing areas of improvement. Following this document, I began designing and testing a
                     free online tool for others to check website accessibility.
                     <br><br>
@@ -35,52 +36,37 @@
             </div>
 
             <div class="right">
-                <img class="smallimage" src="images/ronday/mecampfire.png" alt="image">
+                <img class="smallimage" src="images/unitedway/WCAGexpanded.png" alt="image">
             </div>
         </div>
     </div>
 
-    <img class="largeimage" src="images/ronday/rondaywallboards.png" alt="image">
+    <img class="largeimage" src="images/unitedway/readability.png" alt="image">
 
     <div class="projectcontainer">
         <div class="projectsidebyside">
             <div class="left">
-                <p class="pgrey">
-                    I made 130 wallboards (75 final versions), 3 user flows, 4 high fidelity wireframes,
-                    and a user research plan. I wrote the overwhelming majority of the Ronday Help Center, including
-                    recording numerous short tutorials. I also participated in 3 user interviews, and individually led 3
-                    more. I performed competitive research on 13 competitors. I assisted with 2 project demos, and
-                    staffed 2 paid events. I also directed, recorded, and edited 5 Twitter advertisements. In addition,
-                    I created the Ronday Discord server, and the advertisement video used to promote it. All of this, in
-                    addition to countless design discussions to improve the Ronday platform.
+                <p class="pgrey">To begin my volunteer work, I had a
+                    conversation with Lauren Lynn, the United Way representative, about their needs. She expressed the
+                    importance of accessibility and having a resource that <i>they</i> could use to improve later on.
+                    Therefore, after I conducted a comprehensive accessibility review of their current website, I
+                    created a resource that would enable them to assess accessibility independently in the future.
 
-                    <br><br>
-                    The results speak for themselves. My wallboards are the default images on all of Ronday's most
-                    popular maps. My Twitter Ads boast a conversion rate 20x higher than the industry average. My
-                    research results have guided major decisions for the company.
+
+                    <br><br>My primary focus was using clear
+                    and inclusive language, as I found the WCAG very difficult to read. I have already shared this
+                    resource with United Way and another non-profit organization. I eagerly await their feedback so I may
+                    continue to improve this resource.
                 </p>
             </div>
-
 
             <div class="right">
-                <video class="smallimage" width="484" height="388" controls>
-                    <source src="images/ronday/DiscordBot.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="projectcontainer">
-        <div class="projectsidebyside">
-            <div class="paragraph">
-                <p class="pgrey">Working at a tech startup is an exciting and rewarding experience that I would highly
-                    recommend to
-                    anyone interested in the tech industry. I found it delightful to work on an innovative project with
-                    such a passionate team. I also had ample opportunities for self-growth, as I had to teach myself
-                    graphic design, video editing, and more.
-                </p>
+                <div class="button-container" style="flex-direction: column;">
+                    <a class="buttonblue" target="_blank" href="wcaghelp.php">SEE THE WEBSITE ACCESSIBILITY HELPER</a>
+                    <a class="buttonwhite" target="_blank" href="images\unitedway\UnitedWayAccessibility.pdf"> SEE THE
+                        UNITED
+                        WAY REPORT <span>&gt;</span></a>
+                </div>
             </div>
         </div>
     </div>

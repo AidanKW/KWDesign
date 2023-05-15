@@ -43,16 +43,19 @@
     <div class="centeredcontainer wcagparagraph">
         <p class="h1">What is this?</p>
         <p class="pgrey">This is a free resource to help others make their websites more accessible. The knowledge on
-            this page is based off of the <b>Web Content Accessibility Guidelines (WCAG) 3.0</b>, a resource which
+            this page is based off of the <b>Web Content Accessibility Guidelines (WCAG) 2.2</b>, a resource which
             ironically I have found difficult for others to navigate and read. For each guideline, I will provide a
             little description, as well as any resources which I personally use for that specific topic. At the bottom,
-            I include my personal recommendations which are based on research by the Nielsen Norman Group. I hope you
+            I include my personal recommendations which are based on research by the Nielsen Norman Group. <b>Note that
+                this does not contain every detail in WCAG 2.2</b> - this resource is for people who want accessibility
+            but are
+            not able to employ an accessibility specialist. I hope you
             enjoy! If you have any suggestions, you can contact me through akidderwolff@gmail.com.<br><br>
 
             Commonly used terms:</p>
         <ul class="pgrey">
-            <li><b>WCAG:</b> The Web Content Accessibility Guidelines version 3.0, which can be found at <a
-                    href="https://www.w3.org/TR/WCAG20/" target="_blank">wc.org/TR/WCAG20</a>.</li>
+            <li><b>WCAG:</b> The Web Content Accessibility Guidelines version 2.2, which can be found at <a
+                    href="https://www.w3.org/TR/WCAG22/" target="_blank">wc.org/TR/WCAG22</a>.</li>
             <li><b>Content:</b> Any text, audio, images, video, or anything else your website offers visitors.</li>
             <li><b>AAA: </b> This is terminology by the WCAG to describe the ideal scenario for accessibility.</li>
         </ul>
@@ -75,10 +78,10 @@
                     <p class="h2 dropdown-text">Are there text alternatives for any non-text content? </p>
                 </div>
                 <div class="dropdown-content">
-                    <div class="description-area">
-                        <p class="pgrey">When we include images, videos, icons, and more, we want to make sure people
+                    <div class="description-area pgrey">
+                        <p>When we include images, videos, and more, we want to make sure people
                             using screen-readers can still enjoy the content. We can do this by giving content
-                            alternative text. <br><br>
+                            alternative text or text descriptions. <br><br>
                             If you're not sure if your images have alt text, try this website: <a
                                 href="https://wave.webaim.org/" target="_blank">wave.webaim.org</a>. Just paste your
                             website URL into the search box, and hit [Enter]. Then press "View details", and look for
@@ -87,7 +90,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html">WCAG
                                 1.1 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -107,11 +110,11 @@
                         <p>For audio and videos present on your website, we want to make sure that there's
                             always another
                             way to access this information. This usually takes the form of captions or descriptions for
-                            video and audio recordings. Here are some ways to go above an beyond:</p>
+                            video and audio recordings. Here are some additional ways to be accessible:</p>
                         <ul>
                             <li> Provide an audio track that narrates what's happening in a video. </li>
                             <li> Provide a sign language interpretation for all audio (AAA). </li>
-                            <li> Add more than just the dialogue to your audio description, also known as an Extended
+                            <li> Add more than dialogue to your audio description, also known as an Extended
                                 Audio
                                 Description (AAA).</li>
                             <li> For live content (not pre-recorded), provide an alternative such as voice-to-text
@@ -124,7 +127,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html">WCAG
                                 1.2 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -142,12 +145,11 @@
                 <div class="dropdown-content">
                     <div class="description-area pgrey">
                         <p>Be sure
-                            that someone who cannot see and someone who cannot hear can still understand your website.
-                            This is especially
-                            important when understanding the
-                            website involves viewing content in a particular order. This concept also applies when the
-                            website relies on shape, size, visual location, orientation, or sound to communicate
-                            meaning. <br><br>
+                            that someone who cannot see, someone who cannot hear, and someone who cannot move their
+                            screen can still understand your website. This is especially important when understanding
+                            the website involves viewing content in a particular order. This concept also
+                            applies when the website relies on shape, size, visual location, orientation, or sound to
+                            communicate meaning. <br><br>
 
                             We also want the website code to be structured so that people not looking or hearing
                             the website can still understand it. If you use a website building service like SquareSpace,
@@ -157,7 +159,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html">WCAG
                                 1.3 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -213,11 +215,13 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html">WCAG
                                 1.4 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
-                            <a class="buttonblue" onclick="markAsDone(this)">Mark as done</a>
+                            <div class="button-padding">
+                                <a class="buttonblue" onclick="markAsDone(this)">Mark as done</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -256,7 +260,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible.html">WCAG
                                 2.1 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -304,7 +308,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/enough-time.html">WCAG
                                 2.2 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -329,13 +333,14 @@
                             Photosensitive Epilepsy Analysis Tool to test your video.<br><br>
 
                             As an alternative, simply remove any content that flashses more than 3 times in 1 second
-                            (AAA).
+                            (AAA). Another alternative is to provide the option to disable your website moving when
+                            someone makes an action (AAA).
                         </p>
                     </div>
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/seizures-and-physical-reactions.html">WCAG
                                 2.3 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -347,7 +352,7 @@
             </div>
 
             <!-- WCAG 2.4: Are there enough ways to navigate the website? -->
-            <div class="dropdown last">
+            <div class="dropdown">
                 <div class="dropdown-header" onclick="toggleDropdown(this)">
                     <i class="fa fa-chevron-right dropdown-icon"></i>
                     <p class="h2 dropdown-text">Are there enough ways to navigate the website?</p>
@@ -366,7 +371,7 @@
                                 logical path. See "Can someone use the website with only a keyboard" at the beginning of
                                 this chapter for an example. </li>
                             <li> Allow users to skip content that is repeated on multiple web pages. For example, do not
-                                ask them to log in before reading each page. </li>
+                                make someone navigate through the same promotional banner on every page. </li>
                         </ul>
                         <p> Ideally, we would also include the following: </p>
                         <ul>
@@ -383,8 +388,41 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/navigable.html">WCAG
                                 2.4 <span>&gt;</span></a>
+                        </div>
+                        <div class="button-area">
+                            <a class="buttonblue" onclick="markAsDone(this)">Mark as done</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- WCAG 2.5: Are there enough ways to navigate the website? -->
+            <div class="dropdown last">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <i class="fa fa-chevron-right dropdown-icon"></i>
+                    <p class="h2 dropdown-text">Can you use the website without a mouse and keyboard?</p>
+                </div>
+                <div class="dropdown-content">
+                    <div class="description-area pgrey">
+                        <p> Using a pointer instead of a mouse or keyboard is an increasingly common way to browse
+                            websites. As such, we want to make sure that the whole website can be used with a pointer.
+                            Ask yourself the following questions:
+                        </p>
+                        <ul>
+                            <li> Can someone use a pointer to use my website? </li>
+                            <li> Can you undo what you have done using only a pointer? </li>
+                            <li> Do the buttons, links, and text fields all have visible text to click on? </li>
+                            <li> Are there alternatives for anything which requires specific movement? </li>
+                            <li> Does the website rely on dragging things around? If so, are there alternatives? </li>
+                        </ul>
+                    </div>
+                    <div class="link-checkbox-container">
+                        <div class="link-area">
+                            <a class="buttonwhite" target="_blank"
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/input-modalities.html">WCAG
+                                2.5 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
                             <a class="buttonblue" onclick="markAsDone(this)">Mark as done</a>
@@ -440,7 +478,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/readable.html">WCAG
                                 3.1 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -465,7 +503,7 @@
                                 mouse over something. This does not include changing the color for a hovered button or
                                 something similar.</li>
                             <li> When someone presses a button for fills out a form, only make changes that you have
-                                already explained to the person. For example, hitting "Sumbit" on a form should only
+                                already explained to the person. For example, hitting "Submit" on a form should only
                                 submit the form, and not also redirect to the home page. </li>
                             <li> Use the same nagivation system on each page.</li>
                             <li> Make similar pages have similar appearances and behaviors. </li>
@@ -478,7 +516,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/predictable.html">WCAG
                                 3.2 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -514,7 +552,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/input-assistance.html">WCAG
                                 3.3 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
@@ -558,7 +596,7 @@
                     <div class="link-checkbox-container">
                         <div class="link-area">
                             <a class="buttonwhite" target="_blank"
-                                href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat.html">WCAG
+                                href="https://www.w3.org/WAI/WCAG22/Understanding/compatible.html">WCAG
                                 4.1 <span>&gt;</span></a>
                         </div>
                         <div class="button-area">
