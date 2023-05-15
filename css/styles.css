@@ -698,4 +698,8 @@ button[type="submit"]:hover {
     form {
         width: 100%;
     }
+    
+    .quote img {
+        height: 10em;
+    }
 }

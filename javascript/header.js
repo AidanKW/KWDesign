@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let rotated = false;
   let navlinks = ['about', 'portfolio', 'contact'];
   
+  
   if (currentPage !== null && navlinks.includes(currentPage)) {
     document.getElementById(`${currentPage}-link`).classList.add('active');
     document.querySelector(`.headerlinks a[href='${currentPage}.html']`).classList.add('active');
