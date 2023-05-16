@@ -615,7 +615,7 @@ button[type="submit"]:hover {
 
     .button-container {
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
     }
 
     .buttonwhite {
@@ -701,5 +701,54 @@ button[type="submit"]:hover {
     
     .quote img {
         height: 10em;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .removewhensmall {
+        display: none;
+    }
+
+    #image_me {
+        content: url(../images/about/me_small.png);
+    }
+
+    #image_rondaylaptops {
+        content: url(../images/ronday/rondaylaptops_small.png);
+    }
+
+    #image_reportandhelper {
+        content: url(../images/unitedway/reportandhelper_small.png);
+    }
+
+    #image_readability {
+        content: url(../images/unitedway/readability_small.png);
+    }
+
+    #image_3prototypes {
+        content: url(../images/thesis/3prototypes_small.png);
+    }
+
+    #image_feldenkrais {
+        content: url(../images/thesis/feldenkrais_small.png);
+    }
+
+    #image_showcase {
+        content: url(../images/walkoverme/showcase_small.png);
+    }
+
+    #image_prototypes {
+        content: url(../images/walkoverme/prototypes_small.png);
+    }
+
+    #image_pictures {
+        content: url(../images/lightmeup/pictures_small.png);
+    }
+
+    #image_iterations {
+        content: url(../images/portfolio/iterations_small.png);
     }
 }

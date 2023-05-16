@@ -12,6 +12,7 @@ fetch('header.html')
         let navlinks = ['about', 'projects', 'contact'];
 
         if (currentPage !== null && navlinks.includes(currentPage)) {
+            console.log(`${currentPage}-link`)
             document.getElementById(`${currentPage}-link`).classList.add('active');
             document.querySelector(`.headerlinks a[href='${currentPage}.html']`).classList.add('active');
         }
