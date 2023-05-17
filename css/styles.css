@@ -628,13 +628,14 @@ button[type="submit"]:hover {
     }
 
     .container .right {
-        padding: 0em 4.75em 4.75em 3.375em;
+        padding: 0em 4.75em .1em 3.375em;
     }
 
     .container .right img {
         display: block;
         margin: auto;
         max-width: 30em;
+        height: 100%;
     }
 
     .containerblue {
@@ -667,12 +668,16 @@ button[type="submit"]:hover {
     }
 
     .projectsidebyside {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
     }
 
     .projectcontainer {
         padding: 0 2.5em;
+    }
+
+    .projectsidebyside .right img {
+        height: 100%;
     }
 
 
