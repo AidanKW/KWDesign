@@ -139,7 +139,7 @@
 
 .overlay.show {
     display: block;
-    height: calc(30%);
+    height: calc(40%);
     top: 2.5em;
     background-color: #F9FAFC;
     /* left: 0; */
