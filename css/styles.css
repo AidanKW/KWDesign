@@ -725,6 +725,10 @@ button[type="submit"]:hover {
         content: url(../images/ronday/rondaylaptops_small.png);
     }
 
+    #image_designhelpcenter {
+        content: url(../images/ronday/designhelpcenter_small.png);
+    }
+
     #image_reportandhelper {
         content: url(../images/unitedway/reportandhelper_small.png);
     }
