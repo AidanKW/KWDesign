@@ -15,6 +15,7 @@ exports.handler = async (event, context) => {
         hash.update(yourVerificationToken);
         hash.update(endpoint);
         const responseHash = hash.digest('hex');
+        console.log(new Buffer.from(responseHash).toString());
 
         return {
             statusCode: 200,
