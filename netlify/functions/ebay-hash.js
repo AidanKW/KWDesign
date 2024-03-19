@@ -3,12 +3,12 @@ const crypto = require('crypto');
 
 exports.handler = async (event, context) => {
     try {
-        const { queryStringParameters } = event;
+        const { httpMethod, queryStringParameters } = event;
         const { challenge_code } = queryStringParameters;
 
-        // My actual values on Netlify
-        const endpoint = process.env.EBAY_ENDPOINT; 
-        const yourVerificationToken = process.env.EBAY_VERIFICATION_TOKEN; 
+        // Your actual values (replace with your own)
+        const endpoint = process.env.EBAY_ENDPOINT;
+        const yourVerificationToken = process.env.EBAY_VERIFICATION_TOKEN;
 
         if (httpMethod === 'POST') {
             // Return a 204 No Content response for POST requests
@@ -19,9 +19,7 @@ exports.handler = async (event, context) => {
                 },
                 body: '',
             };
-        }
-
-        else if (httpMethod === 'GET') {
+        } else if (httpMethod === 'GET') {
             // Return hash on GET request
             const hash = crypto.createHash('sha256');
             hash.update(challenge_code);
@@ -32,22 +30,17 @@ exports.handler = async (event, context) => {
             return {
                 statusCode: 200,
                 headers: {
-                    'Content-Type': 'application/json', // Set the Content-Type header
+                    'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({ challengeResponse: responseHash }),
             };
-        } 
-        
-        else {
+        } else {
             // Return a 405 Method Not Allowed for other HTTP methods
             return {
                 statusCode: 405,
                 body: JSON.stringify({ error: 'Method Not Allowed' }),
             };
         }
-        
-
-        
     } catch (error) {
         return {
             statusCode: 500,
