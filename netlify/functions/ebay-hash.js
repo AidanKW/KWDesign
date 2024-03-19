@@ -18,6 +18,9 @@ exports.handler = async (event, context) => {
 
         return {
             statusCode: 200,
+            headers: {
+                'Content-Type': 'application/json', // Set the Content-Type header
+            },
             body: JSON.stringify({ challengeResponse: responseHash }),
         };
     } catch (error) {
