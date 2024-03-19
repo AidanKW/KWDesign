@@ -10,19 +10,44 @@ exports.handler = async (event, context) => {
         const endpoint = process.env.EBAY_ENDPOINT; 
         const yourVerificationToken = process.env.EBAY_VERIFICATION_TOKEN; 
 
-        const hash = crypto.createHash('sha256');
-        hash.update(challenge_code);
-        hash.update(yourVerificationToken);
-        hash.update(endpoint);
-        const responseHash = hash.digest('hex');
+        if (httpMethod === 'POST') {
+            // Return a 204 No Content response for POST requests
+            return {
+                statusCode: 204,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: '',
+            };
+        }
 
-        return {
-            statusCode: 200,
-            headers: {
-                'Content-Type': 'application/json', // Set the Content-Type header
-            },
-            body: JSON.stringify({ challengeResponse: responseHash }),
-        };
+        else if (httpMethod === 'GET') {
+            // Return hash on GET request
+            const hash = crypto.createHash('sha256');
+            hash.update(challenge_code);
+            hash.update(yourVerificationToken);
+            hash.update(endpoint);
+            const responseHash = hash.digest('hex');
+
+            return {
+                statusCode: 200,
+                headers: {
+                    'Content-Type': 'application/json', // Set the Content-Type header
+                },
+                body: JSON.stringify({ challengeResponse: responseHash }),
+            };
+        } 
+        
+        else {
+            // Return a 405 Method Not Allowed for other HTTP methods
+            return {
+                statusCode: 405,
+                body: JSON.stringify({ error: 'Method Not Allowed' }),
+            };
+        }
+        
+
+        
     } catch (error) {
         return {
             statusCode: 500,
