@@ -735,6 +735,18 @@ button[type="submit"]:hover {
         display: none;
     }
 
+    #image_sawhero {
+        content: url(../images/saw/hero_small.png)
+    }
+
+    #image_oldtonew {
+        content: url(../images/saw/oldtonew_small.png)
+    }
+
+    #image_sawdesignsystem {
+        content: url(../images/saw/designsystem_small.png)
+    }
+
     #image_me {
         content: url(../images/about/me_small.png);
     }
