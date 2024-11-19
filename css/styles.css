@@ -593,8 +593,10 @@ button[type="submit"]:hover {
     font-weight: bolder;
 }
 
-
-
+.backgrounded{
+    justify-content: center;
+    background-image: url(../images/plainbanner.png);
+}
 
 @media only screen and (min-width: 60em) and (max-width: 80em) {
     .grid-item {
